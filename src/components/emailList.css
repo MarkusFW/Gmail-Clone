@@ -50,3 +50,68 @@
   border-bottom: 1px solid whitesmoke;
   z-index: 999;
 }
+
+/* 
+
+MEDIA/RESPONSIVNESS
+
+*/
+
+@media (max-width: 768px) {
+
+  .compose__button {
+    position: fixed;
+    top: -10px;
+    left: 0px;
+    height: 50px;
+    width: 80px;
+    border-radius: 24% !important;
+   }
+
+    .emailList {
+      position: absolute;
+      justify-content: center;
+      align-content: center;
+      top: 150px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      max-width: 1000px;
+      max-height: 1000px;
+    }  
+
+    .emailList__sections { 
+      width: 400px;
+    }
+
+    .header__middle {
+      display: none;
+    }
+
+    .emailRow__description {
+      display: none;
+    }
+
+    .sendMail{
+      width: 250px !important;
+
+    }
+
+}
+
+@media (max-width: 700px) {
+  .emailRow__time {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .emailRow__message--h4{
+    display: none;
+  }
+
+  .header__right > button {
+    display: none;
+  }
+
+}

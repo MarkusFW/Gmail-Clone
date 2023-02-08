@@ -19,7 +19,7 @@ function Sidebar() {
 
   return (
     <div className="sidebar">
-      <Button
+      <Button className="compose__button"
         style={{ color: "black" }}
         startIcon={
           <ModeEditOutlineOutlinedIcon style={{ fontSize: "large" }} />

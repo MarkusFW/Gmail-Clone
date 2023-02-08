@@ -41,7 +41,7 @@ function MailRow({ id, title, subject, message, time }) {
         </div>
         <h3 className="emailRow__title">{title}</h3>
         <div className="emailRow__message">
-          <h4>{subject} </h4>
+          <h4 className="emailRow__message--h4">{subject} </h4>
           <span className="emailRow__description">- {message}</span>
         </div>
       </div>
